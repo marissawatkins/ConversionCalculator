@@ -12,6 +12,7 @@
 		433F8A4D1FB6104D00A9DDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433F8A4C1FB6104D00A9DDDC /* Assets.xcassets */; };
 		433F8A501FB6104D00A9DDDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433F8A4E1FB6104D00A9DDDC /* LaunchScreen.storyboard */; };
 		433F8A581FB618A100A9DDDC /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8A571FB618A100A9DDDC /* ConverterViewController.swift */; };
+		433F8A5A1FB76C5000A9DDDC /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8A591FB76C5000A9DDDC /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		433F8A4F1FB6104D00A9DDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		433F8A511FB6104D00A9DDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		433F8A571FB618A100A9DDDC /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
+		433F8A591FB76C5000A9DDDC /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				433F8A4E1FB6104D00A9DDDC /* LaunchScreen.storyboard */,
 				433F8A511FB6104D00A9DDDC /* Info.plist */,
 				433F8A571FB618A100A9DDDC /* ConverterViewController.swift */,
+				433F8A591FB76C5000A9DDDC /* Converter.swift */,
 			);
 			path = ConversionCalculator;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				433F8A461FB6104D00A9DDDC /* AppDelegate.swift in Sources */,
+				433F8A5A1FB76C5000A9DDDC /* Converter.swift in Sources */,
 				433F8A581FB618A100A9DDDC /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
