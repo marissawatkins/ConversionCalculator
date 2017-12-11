@@ -95,6 +95,7 @@ class ConverterViewController: UIViewController {
         }
     }
     
+    
     //action button that handles the clear button
     //only clears the numbers, not the label
     @IBAction func clearButton(_ sender: UIButton) {
